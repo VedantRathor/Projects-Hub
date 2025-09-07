@@ -14,7 +14,7 @@ Each project folder contains:
 ## 📌 Featured Projects
 
 ### 1. [Project Management System (PMS Portal)](./Project%20Management%20System)
-🔗 [GitHub Repo](./Project%20Management%20System) | 🎥 [Demo Video](#)  
+🔗 [Main GitHub Repo](https://github.com/VedantRathor/PMS-Portal) | 🎥 [Demo Video](https://drive.google.com/drive/folders/1F0Qn5wVxQKkaZbR2KWyGj4iP4BSZo0PQ?usp=sharing)  
 
 A full-stack project management portal with **250+ registrations**, role-based access, analytics, and reporting.  
 - Tech: **Node.js, Express, React, MySQL, Sequelize (ORM), JWT, WebSockets, AWS**  
@@ -25,13 +25,10 @@ A full-stack project management portal with **250+ registrations**, role-based a
   - High-efficiency **10-year Excel report generation**  
 - **Previously deployed live on AWS (App Runner, RDS, S3).**
 
-📸 Screenshot:  
-![PMS Screenshot](./Project%20Management%20System/screenshots/pms.png)
-
 ---
 
 ### 2. [MindConnect – Social Media & Doctor Booking (Microservices)](./Mind-Connect)
-🔗 [GitHub Repo](./Mind-Connect) | 🎥 [Demo Video](#)  
+🔗 [Main GitHub Repo](https://github.com/VedantRathor/MindConnect) | 🎥 [Demo Video](https://drive.google.com/file/d/1xogI3gPpCRNAGcOtpSVkoehmxZnknxTD/view?usp=sharing)  
 
 A **high-scale microservices project** featuring social media and doctor booking modules.  
 - Tech: **Spring Boot, Kafka, MongoDB, gRPC, REST, Guava Rate Limiter**  
@@ -41,15 +38,6 @@ A **high-scale microservices project** featuring social media and doctor booking
   - Built **Post, Feed, Follow** services with gRPC + REST  
   - MongoDB writes capped at **10K ops/sec** for stability  
 - Includes **system design notes** and **architecture diagrams**.  
-
----
-
-## 📬 About Me
-👨‍💻 **Vedant Rathore**  
-- 🌍 Vadodara, Gujarat  
-- 📧 [vedant.rathore.hs@gmail.com](mailto:vedant.rathore.hs@gmail.com)  
-- 🔗 [LinkedIn](https://linkedin.com/in/Vedant) | [GitHub](https://github.com/VedantRathore)  
-
 ---
 
 ⭐ If you found this portfolio interesting, feel free to **star** ⭐ the repository!  
