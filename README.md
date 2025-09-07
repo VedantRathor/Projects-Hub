@@ -4,7 +4,7 @@ Welcome to my **Projects Hub**!
 This repository serves as a central portfolio showcasing my key projects with **code, demo videos, and documentation**.  
 
 Each project folder contains:  
-- 📂 **Source code / setup instructions**  
+- 📂 **Main GitHub Repo**  
 - 🎥 **Demo video links**  
 - 🖼️ **Screenshots**  
 - 📖 **Detailed README with features & tech stack**  
