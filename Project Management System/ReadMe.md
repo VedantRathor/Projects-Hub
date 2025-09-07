@@ -1,5 +1,5 @@
 # Project Management System (PMS Portal)
-![PMS Portal Screenshot](screenshots/pms.png)
+![PMS Portal Screenshot](Screenshots/pms.png)
 
 ## Tech Stack
 - **Database:** MySQL  
@@ -34,4 +34,5 @@ PMS Portal is a full-stack project management system designed to streamline team
 ## Notes
 - Previously deployed full-stack on **AWS (App Runner, RDS, S3)**.  
 - Optimized JSON (2000+ lines) and built a high-efficiency 10-year Excel report.  
+
 
