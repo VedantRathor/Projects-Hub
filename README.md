@@ -1,7 +1,7 @@
 # 🚀 Projects Hub – Vedant Rathore
 
 Welcome to my **Projects Hub**!  
-This repository is a central portfolio showcasing my top projects with **code, demo videos, and documentation**.  
+This repository is a central portfolio showcasing my **top projects** with **code, demo videos, and documentation**.  
 
 ---
 
