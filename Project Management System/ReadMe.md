@@ -1,18 +1,35 @@
-# Project Management System
+# Project Management System (PMS Portal)
 
-**Tech Stack:** Node.js, Express, React, MySQL, Sequelize (ORM), RESTful API, WebSockets, JWT, AWS (App Runner, RDS – previously live), Netlify (frontend demo)
+## Tech Stack
+- **Database:** MySQL  
+- **Backend:** Node.js, Express  
+- **Frontend:** React  
+- **ORM:** Sequelize (with migrations, seeders, and schema associations)  
+- **Other:** WebSockets, JWT, worker-thread modules for performance, real-time updates  
 
-**Project Description:**  
-A project management portal with 4 user roles, analytics dashboards for 10+ KPIs, and high-efficiency reporting.
+---
 
-**Key Achievements:**  
-- Optimized JSON (2000+ lines), simplified 5+ associations, built 10-year Excel report.  
-- Designed analytics for 10+ KPIs.  
-- Developed granular access logic for 4 roles.
+## Project Overview
+PMS Portal is a full-stack project management system designed to streamline team collaboration and task tracking. It supports multiple user roles and provides analytics and reporting for better decision-making.
 
-**Demo Videos:**  
-- [Frontend Demo – Netlify](https://your-netlify-link)  
-- [Full Demo Video](https://drive-or-youtube-link)  
+---
 
-**GitHub Repository:**  
-[Link to code repository]  
+## Key Features
+- **User Roles:** Admin, Manager, Employee — each with tailored access permissions.  
+- **Project Management:** Assign projects, create tasks, track progress with logs, manage updates, and more.  
+- **Performance Optimization:** Worker-thread modules for handling concurrent users efficiently.  
+- **Real-Time Updates:** Dynamic component refreshes for live data changes.  
+- **Database Schema & Joins:** Complex Sequelize relationships and efficient queries for scalable data management.  
+
+---
+
+## Demo Videos & Links
+- [Frontend Demo – Netlify](#)  
+- [Full Demo Video – YouTube/Drive](#)  
+- [GitHub Repository](#)  
+
+---
+
+## Notes
+- Previously deployed full-stack on **AWS (App Runner, RDS, S3)**.  
+- Optimized JSON (2000+ lines) and built a high-efficiency 10-year Excel report.  
