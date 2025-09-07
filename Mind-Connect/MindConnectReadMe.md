@@ -1,62 +1,45 @@
-# MindConnect – Social Media & Doctor Booking (Microservices Project)
+# MindConnect - (Microservices Project)
+Social Media & Doctor Booking Modules
 
-⚠️ **Note:** This is a **microservices-based project**. Each microservice has its own repository. Links to the actual repos are provided below.
+⚠️ Note: This is a microservices-based project. Each microservice has its own repository. Links to the actual repos are provided below.
 
----
+# Overview
 
-## Overview
-MindConnect is a large-scale platform combining **social media** and **doctor booking** modules.  
-The **Social Media Module** powers posts, feeds, and follow mechanics for **millions of users**, built with **high-throughput, low-latency microservices**.
+Social Media Module is a high-scale social media and docter consultation platform built as part of the larger MindConnect project.  
+This module focuses on Post, Feed, and Follow microservices, designed for millions of users with low-latency and high-throughput requirements.
 
----
+# Microservices & Repositories
 
-## Microservices & Repositories
-Each microservice is independent and deployed separately:
+Each microservice is independent and maintained in its own repository:  
+| Service       | Description                                | GitHub Link |
+|---------------|--------------------------------------------|------------|
+| Post Service  | Handles creation, updates, and storage of user posts | [Link](https://github.com/VedantRathor/PostService) |
+| Feed Service  | Generates user timelines efficiently using Kafka fan-out | [Link](https://github.com/VedantRathor/FeedService) |
+| Follow Service| Manages follower/following relationships and notifications | [Link](https://github.com/VedantRathor/FollowService) |
 
-| Service       | Description                                         | GitHub Link |
-|---------------|-----------------------------------------------------|-------------|
-| **Post**      | Handles creation, updates, and storage of user posts | [Post Service](#) |
-| **Feed**      | Generates user timelines efficiently using Kafka fan-out | [Feed Service](#) |
-| **Follow**    | Manages follower/following relationships & notifications | [Follow Service](#) |
+> Each repo includes setup instructions and can be run independently.
 
-Each repo includes setup instructions and can be run independently.  
+# Architecture & Key Highlights
 
----
+- Communication: gRPC + REST for inter-service calls  
+- High-scale fan-out: Processed 5M followers in 7–9 minutes using Kafka (5 partitions, 6 consumers)  
+- Batching & Parallelism: Batches of 2,000 followers for efficient fan-out  
+- Database Rate-Limiting: MongoDB writes capped at 10K ops/sec using Guava Leaky Bucket  
+- Resilience & Throughput: Multi-threaded producers and parallel consumers handle peak traffic smoothly
 
-## Architecture & Key Highlights
-- **Communication:** gRPC + REST for inter-service calls  
-- **High-Scale Fan-Out:** Processed **5M followers** in ~7–9 minutes using Kafka (5 partitions, 6 consumers)  
-- **Batching & Parallelism:** Batched **2,000 followers per partition** for efficient fan-out  
-- **Rate Limiting:** MongoDB writes capped at **10K ops/sec** using **Guava Leaky Bucket**  
-- **Resilience & Throughput:** Multi-threaded producers + parallel consumers handle peak traffic seamlessly  
+## High-Level Architecture
+The system consists of multiple modules: UserService, DoctorService, SocialMediaService, BookingService, API Gateway, and supporting databases/storage.  
+![High-Level Architecture](./MindConnectHLD/MindConnectHLD.png)
 
----
+## Social Media Microservices Architecture
+This diagram details the **Post, Feed, and Follow microservices** including Kafka fan-out, MongoDB schema, and timeline batching.  
+![Microservices Detailed Architecture](./SocialMediaModuleHLD/SocialMediaModuleHLD.png)
 
-## Architecture Diagrams
-- **High-Level Architecture:** UserService, DoctorService, SocialMediaService, BookingService, API Gateway, databases/storage  
-- **Social Media Microservices:** Post, Feed, and Follow services with Kafka fan-out, MongoDB schema, and batching logic  
 
-*(Add your diagrams here if available, e.g., `screenshots/architecture.png`)*  
+# Design Notes & Thought Process
 
----
+- [Link](https://1drv.ms/o/c/c078c29098d8248b/EgFaVJUw6pNMqYhfiW_sxJMBGGsXQTzKGeZGgehHPwgyRw?e=H6wmoz) – Contains design decisions, approaches, and notes on building scalable microservices  
+- Demonstrates system design thinking, planning, and experimentation before implementation
 
-## Tech Stack
-- **Backend:** Spring Boot  
-- **Database:** MongoDB  
-- **Messaging:** Kafka  
-- **Communication:** gRPC + REST  
-- **Utilities:** Guava Rate Limiter, Multi-threaded Processing  
 
----
 
-## Design Notes
-- Detailed **design decisions** and **system design thinking** documented here → [Design Notes](#)  
-- Covers experimentation with **fan-out strategies**, **idempotent APIs**, and **resilient scaling**  
-
----
-
-## Resume Highlights
-- Architected a **distributed fan-out pipeline** to process posts from users with **up to 5M followers**.  
-- Built **3 production-grade microservices** (Post, Feed, Follow) with gRPC + REST.  
-- Optimized Kafka throughput (5 partitions, 6 consumers, batching of 2K) to achieve **~7–9 min fan-out completion**.  
-- Implemented **idempotent POST APIs** and **MongoDB rate-limiting at 10K ops/sec**.  
