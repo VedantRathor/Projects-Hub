@@ -6,7 +6,7 @@
 - **Backend:** Node.js, Express  
 - **Frontend:** React  
 - **ORM:** Sequelize (with migrations, seeders, and schema associations)  
-- **Other:** WebSockets, JWT, worker-thread modules for performance, real-time updates  
+- **Other:** WebSockets, JWT for performance and real-time updates  
 
 ---
 
@@ -31,6 +31,7 @@ PMS Portal is a full-stack project management system designed to streamline team
 ## Notes
 - Previously deployed full-stack on **AWS (App Runner, RDS, S3)**.  
 - Optimized JSON (2000+ lines) and built a high-efficiency 10-year Excel report.  
+
 
 
 
