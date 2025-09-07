@@ -23,7 +23,7 @@ PMS Portal is a full-stack project management system designed to streamline team
 - **Database Schema & Joins:** Complex Sequelize relationships and efficient queries for scalable data management.  
 
 ---
-  
+- [Demo Video Link](https://drive.google.com/drive/folders/1F0Qn5wVxQKkaZbR2KWyGj4iP4BSZo0PQ?usp=sharing)
 - [GitHub Repository](https://github.com/VedantRathor/PMS-Portal)  
 
 ---
@@ -31,6 +31,7 @@ PMS Portal is a full-stack project management system designed to streamline team
 ## Notes
 - Previously deployed full-stack on **AWS (App Runner, RDS, S3)**.  
 - Optimized JSON (2000+ lines) and built a high-efficiency 10-year Excel report.  
+
 
 
 
