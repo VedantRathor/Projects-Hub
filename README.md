@@ -1,7 +1,7 @@
 # 🚀 Projects Hub – Vedant Rathore
 
 Welcome to my **Projects Hub**!  
-This repository is a central portfolio showcasing my <u>top projects</u> with **code, demo videos, and documentation**.  
+This repository is a central portfolio showcasing my **<u>top projects</u>** with **code, demo videos, and documentation**.  
 
 ---
 
@@ -21,7 +21,7 @@ A **high-scale microservices project** combining social media + doctor booking.
 ---
 
 ### 🏗️ Project Management System (PMS Portal)  
-🔗 [GitHub Repo](https://github.com/VedantRathor/PMS-Portal) | 🎥 [Demo Video](https://drive.google.com/drive/folders/1F0Qn5wVxQKkaZbR2KWyGj4iP4BSZo0PQ?usp=sharing)  
+🔗 [GitHub Repo](https://github.com/VedantRathor/PMS-Portal) | 🎥 [Demo Videos](https://drive.google.com/drive/folders/1F0Qn5wVxQKkaZbR2KWyGj4iP4BSZo0PQ?usp=sharing)  
 
 A **full-stack project management portal** with role-based access, analytics, and reporting.  
 - ⚡ **Tech Stack**: Node.js, Express, React, MySQL, Sequelize, JWT, WebSockets, AWS  
