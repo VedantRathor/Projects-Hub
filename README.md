@@ -13,7 +13,7 @@ This repository is a central portfolio showcasing my **<u>top projects</u>** wit
 A **high-scale microservices project** combining social media + doctor booking.  
 - ⚡ **Tech Stack**: Spring Boot, Kafka, MongoDB, gRPC, REST  
 - 🚀 **Highlights**:  
-  - Built a **5M+ followers fan-out pipeline** using Kafka  
+  - Built a **50,00,000+ followers fan-out pipeline** using Kafka  
   - Batched **2K followers/partition** → completed fan-out in ~7–9 min  
   - Stable MongoDB writes at **10K ops/sec**  
   - Designed scalable **Post, Feed, Follow services** with gRPC + REST  
